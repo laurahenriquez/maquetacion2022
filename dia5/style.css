@@ -1,0 +1,196 @@
+@media screen and (max-width: 874px){
+    .mockup{
+        display:none;
+        width:0px
+    }
+    .mockup img{
+        display: none
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .bottomlinks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    width: 100vw;
+    height: 90vh;
+}
+
+.article{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    height: 70%;
+    width: 50%;
+    padding-right: 15px;
+    border: 2px solid black
+}
+
+.divIzquierdo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+}
+    .mockup img{
+        width: 115%;
+        border: 2px solid red;
+    }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    border: 2px solid green;
+}
+
+    .divDerecho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        width: 100%;
+        gap: 10px;
+        border: 1px solid rgb(178, 178, 178);
+        padding-bottom: 20px;
+    }
+    .form img{
+        width: 100%;
+        
+
+
+
+    }
+
+    .form1 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .form1 form ::placeholder{
+        background-color: rgb(243, 243, 243);
+    }
+
+    .form img{
+        width: 60%;
+    }
+
+    .linea_formulario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        color: grey;
+        padding-bottom: 5px;
+    }
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto; 
+        color: black;
+        width: 100px;
+    }
+
+    .facebook{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .facebook_option img{
+        width: 15px;
+    }
+
+    .preguntas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        background-color: #FFFFFF;
+        border: 1px solid rgb(178, 178, 178);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .marketplaces{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+        .marketplaces img{
+            height: 40px;
+        }
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: small;
+    color: grey;
+}
+
+
+       
+.contenedor-grande{
+    display: flex;
+}    
+.contenedor-pequeno{
+    display: none;
+}
+
+@media screen and (max-width: 875px)
+{
+    .contenedor-grande{
+    display: none;
+    }
+.contenedor-pequeno{
+display: flex;
+}
+}
